@@ -1,0 +1,41 @@
+# Local environments and downloaded raw data
+/.venv/
+/venv/
+/env/
+/data/
+
+# Python / notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Report-generation helpers and temporary downloads
+/tmp/
+/temp/
+/.tmp*
+*.part
+*.tmp
+
+# User-provided course/reference materials
+/sources/
+/attachments/
+*.pdf
+!/Project_Report.pdf
+*.zip
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.txt
+!/requirements.txt
+
+# Local editor and OS state
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store

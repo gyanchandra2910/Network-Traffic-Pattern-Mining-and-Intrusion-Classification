@@ -1,0 +1,3 @@
+# Preserve executed notebook and PDF report bytes across checkouts.
+*.ipynb -text
+*.pdf binary
